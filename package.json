@@ -1,8 +1,8 @@
 {
   "name": "ab-pagination",
-  "version": "1.0.0",
+  "version": "1.1.2",
   "description": "Create pagination items model",
-  "main": "src/Pagination.ts",
+  "main": "lib/Pagination.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
@@ -20,5 +20,6 @@
   "homepage": "https://github.com/arianbahreman/pagination#readme",
   "devDependencies": {
     "typescript": "^3.9.6"
-  }
+  },
+  "files": ["lib/**"]
 }
