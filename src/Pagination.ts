@@ -1,6 +1,15 @@
-export default (current, limit, total, visibleNeighbors = 2) => {
+interface PaginationItem {
+  type: string,
+  page?: number
+}
 
-  let items = [];
+export default (
+  current: number,
+    limit: number,
+      total: number,
+        visibleNeighbors: number = 2) => {
+
+  let items: Array<PaginationItem> = [];
   const pages = Math.ceil(total / limit);
 
   /*

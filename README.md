@@ -1,4 +1,4 @@
-# pagination
+# Pagination
 Create pagination items model
 
 Quickly create pagination items via vanilla javascript and no dependency required.
