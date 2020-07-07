@@ -1,7 +1,15 @@
 {
   "name": "ab-pagination",
-  "version": "1.1.2",
+  "version": "1.1.5",
   "description": "Create pagination items model",
+  "author": "Arian Bahreman <arian.bahreman@ymail.com>",
+  "keywords": [
+    "pagination",
+    "paginate",
+    "paginator",
+    "page",
+    "nodependency"
+  ],
   "main": "lib/Pagination.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,8 +19,6 @@
     "type": "git",
     "url": "git+https://arianbahreman:M%21RRT%40zQz2LssXFUH0AE@github.com/arianbahreman/pagination.git"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/arianbahreman/pagination/issues"
@@ -21,5 +27,8 @@
   "devDependencies": {
     "typescript": "^3.9.6"
   },
-  "files": ["lib/**"]
+  "files": [
+    "lib/**"
+  ],
+  "dependencies": {}
 }
