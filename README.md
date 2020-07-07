@@ -31,32 +31,32 @@ Item type could be one of this below:
 ```javascript
 function renderPagination(items)
 {
-  let paginations = '<ul>';
+  let pagination = '<ul>';
 
   items.forEach(item => {
   
-    paginations += '<li>';
+    pagination += '<li>';
   
     switch(item.type)
     {
       case 'gap':
-        paginations += '<i>...</i>';
+        pagination += '<i>...</i>';
         break;
       
       case 'prev':
       case 'next':
-        paginations += '<a href="?page=' + item.page + '">' + item.type + '</a>';
+        pagination += '<a href="?page=' + item.page + '">' + item.type + '</a>';
         break;
     
       case 'anchor':
       case 'first':
       case 'last':
       default:
-        paginations += '<a href="?page=' + item.page + '">' + item.page + '</a>';
+        pagination += '<a href="?page=' + item.page + '">' + item.page + '</a>';
         break;
     }
   
-    paginations += '</li>';
+    pagination += '</li>';
   });
   
   return pagination;
